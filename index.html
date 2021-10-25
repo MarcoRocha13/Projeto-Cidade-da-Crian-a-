@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Marco</title>
+    <link rel="icon" href="img/favicon.ico" type="imagem/x-icon">
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body 
+{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidenav 
+{
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:darkblue;
+  overflow-x: hidden;
+  font-size: 20px;
+}
+
+.sidenav a 
+{
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  border:4px solid darkturquoise;
+  margin-top:2px ;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.sidenav a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
+
+.content 
+{
+  margin-left: 400px;
+  padding-left: 20px;
+}
+img 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+  border-radius: 10%;
+}
+img.crianças
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 40%;
+  height: auto;
+  opacity: 1;
+  border-radius: 10%;
+  border: solid black 4px;
+  margin-top: 20px;
+
+}
+.interface
+{
+  background-color:lightskyblue;
+  color:black;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: solid black 4px;
+
+}
+h1
+{
+    color:blue;
+    text-align: center;
+}
+.frase
+{
+    color:blue;
+    text-align: center;
+
+}
+
+.caixa
+{
+    border:black solid 4px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#">Professores</a>
+  <a href="#">Infantil</a>
+  <a href="#">Jovens</a>
+  <p></p>
+  <picture>
+      <img src="img/computadores 02.jpg">
+  </picture>
+
+</div>
+
+<div class="content">
+
+  <div class="interface">
+      <h1><b>Cidade da Criança</b></h1>
+      <p class="frase"><b>Login</b></p>
+      <div class="caixa">
+          <p>Email:</p>
+      </div>
+      <div class="caixa">
+          <p>Senha:</p>
+      </div>
+      <p class="frase"><b>Não possui login: Cadastre-se</b></p>
+
+  </div>
+  <picture>
+    <img class="crianças" src="img/crianças.jpg">
+</picture>
+
+</div>
+
+</body>
+</html>
